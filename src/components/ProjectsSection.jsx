@@ -1,4 +1,30 @@
 const PROJECTS = [
+   {
+    title: "AI Code Review Platform",
+    subtitle: "MERN Stack · Groq AI · Socket.io · Monaco Editor",
+    period: "Jun 2025 – Jun 2025",
+    description:
+      "Full-stack AI-powered code review platform where users paste code and receive instant feedback using Groq LLaMA 3.3 70B model via structured prompt engineering. AI returns a quality score (0–100), severity-ranked issues (critical/high/medium/low), and actionable fix suggestions across 10+ programming languages. Implemented secure cookie-based JWT authentication with httpOnly cookies, Monaco Editor for VS Code-like experience, and deployed frontend on Netlify with proxy configuration and backend on Render with MongoDB Atlas.",
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Groq AI",
+      "LLaMA 3.3 70B",
+      "JWT",
+      "Monaco Editor",
+      "Tailwind CSS",
+      "REST API",
+      "Prompt Engineering",
+      "Netlify",
+      "Render",
+    ],
+    github: "https://github.com/ajay7398/Ai-Code-Review-Plateform",
+    live: "https://codelens-app.netlify.app/",
+    color: "#6c63ff",
+    icon: "◎",
+  },
   {
   title: "JobBoard Platform",
   subtitle: "MERN Stack · JWT · Cloudinary · Tailwind CSS",
